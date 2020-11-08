@@ -17,7 +17,7 @@ var weekDay = ary[weekDayNum] ;
 // GAからデータを取得する関数の定義
 function getGaData(startDate, endDate) {
 var gaData = Analytics.Data.Ga.get(
-'ga:', //アナリティクスで使っているID名を記載
+'ga:', //アナリティクスで使っているビューIDを記載
 startDate,
 endDate,
 'ga:pageviews, ga:sessions, ga:users, ga:newUsers,ga:bounceRate,ga:exitRate,ga:avgSessionDuration,ga:pageviewsPerSession, ga:totalEvents'
